@@ -31,6 +31,13 @@ body {
 	place-content: center;
 }
 
+.nft-preview-card {
+	max-width: 326px;
+	place-self: center;
+	background-color: var(--very-dark-blue-card-bg);
+	border-radius: 0.625rem;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
