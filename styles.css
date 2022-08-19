@@ -38,6 +38,19 @@ body {
 	border-radius: 0.625rem;
 }
 
+.nft-preview-card__equilibrium {
+	max-width: 100%;
+	/*
+	 * border-radius does not play nice with
+	 * padding, so you have to sum the padding
+	 * pixels with the border-radius that you want.
+	 * For more:
+	 * https://stackoverflow.com/questions/9409632/border-radius-and-padding-not-playing-nice
+	*/
+	padding: 23px;
+	border-radius: calc(23px + 0.625rem);
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
