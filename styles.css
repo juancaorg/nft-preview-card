@@ -28,7 +28,7 @@ body {
 	background-color: var(--very-dark-blue-main-bg);
 	color: var(--white);
 	display: grid;
-	align-content: center;
+	place-content: center;
 }
 
 .attribution {
