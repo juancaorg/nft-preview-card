@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap");
 
 :root,
 * {
@@ -53,6 +53,16 @@ body {
 	*/
 	padding: var(--padding-mobile);
 	border-radius: calc(var(--padding-mobile) + var(--border-radius-image));
+}
+
+.nft-preview-card__text {
+	padding: 0 var(--padding-mobile) var(--padding-mobile);
+	margin-top: -6px;
+}
+
+.nft-preview-card__title {
+	font-size: 1.375rem;
+	font-weight: 500;
 }
 
 .attribution {
