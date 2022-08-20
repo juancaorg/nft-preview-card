@@ -20,6 +20,10 @@
 	/* Footer colors. */
 	--attribution-blue: hsl(228, 45%, 44%);
 	--brandeis-blue: hsl(212, 95%, 48%);
+	/* Other variables */
+	--padding-mobile: 23px;
+	--border-radius-card: 0.625rem;
+	--border-radius-image: 0.625rem;
 }
 
 body {
@@ -35,7 +39,7 @@ body {
 	max-width: 326px;
 	place-self: center;
 	background-color: var(--very-dark-blue-card-bg);
-	border-radius: 0.625rem;
+	border-radius: var(--border-radius-card);
 }
 
 .nft-preview-card__equilibrium {
@@ -47,8 +51,8 @@ body {
 	 * For more:
 	 * https://stackoverflow.com/questions/9409632/border-radius-and-padding-not-playing-nice
 	*/
-	padding: 23px;
-	border-radius: calc(23px + 0.625rem);
+	padding: var(--padding-mobile);
+	border-radius: calc(var(--padding-mobile) + var(--border-radius-image));
 }
 
 .attribution {
