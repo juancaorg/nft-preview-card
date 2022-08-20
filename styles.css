@@ -22,8 +22,8 @@
 	--brandeis-blue: hsl(212, 95%, 48%);
 	/* Other variables */
 	--padding-mobile: 23px;
-	--border-radius-card: 0.625rem;
-	--border-radius-image: 0.625rem;
+	--border-radius-card: 0.875rem;
+	--border-radius-image: 0.5rem;
 }
 
 body {
