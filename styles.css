@@ -71,6 +71,19 @@ body {
 	padding: 0.75rem 0;
 }
 
+.nft-preview-card__product-info-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.nft-preview-card__price {
+	color: var(--cyan);
+}
+
+.nft-preview-card__time-left {
+	color: var(--soft-blue);
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
