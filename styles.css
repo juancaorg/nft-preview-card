@@ -79,6 +79,7 @@ body {
 
 .nft-preview-card__price {
 	color: var(--cyan);
+	font-weight: 400;
 }
 
 .nft-preview-card__eth-icon {
@@ -88,6 +89,7 @@ body {
 
 .nft-preview-card__time-left {
 	color: var(--soft-blue);
+	font-weight: 300;
 }
 
 .nft-preview-card__clock-icon {
