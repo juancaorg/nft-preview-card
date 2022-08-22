@@ -65,6 +65,12 @@ body {
 	font-weight: 500;
 }
 
+.nft-preview-card__description {
+	color: var(--soft-blue);
+	font-weight: 300;
+	padding: 0.75rem 0;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
