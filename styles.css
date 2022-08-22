@@ -97,6 +97,13 @@ body {
 	margin-right: 0.125rem;
 }
 
+.nft-preview-card__author-line {
+	background-color: var(--soft-blue);
+	width: 100%;
+	height: 0.0625rem;
+	margin: 1rem 0;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
