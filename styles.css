@@ -74,6 +74,7 @@ body {
 .nft-preview-card__product-info-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .nft-preview-card__price {
