@@ -104,6 +104,12 @@ body {
 	margin: 1rem 0;
 }
 
+.nft-preview-card__author-avatar {
+	width: 2.125rem;
+	border: 1px solid var(--white);
+	border-radius: 50%;
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
