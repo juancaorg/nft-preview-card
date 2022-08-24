@@ -110,6 +110,15 @@ body {
 	border-radius: 50%;
 }
 
+.nft-preview-card__author-credit {
+	font-weight: 300;
+	color: var(--soft-blue);
+}
+
+.nft-preview-card__author-name {
+	color: var(--white);
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
