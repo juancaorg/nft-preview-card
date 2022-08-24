@@ -65,6 +65,11 @@ body {
 	font-weight: 500;
 }
 
+.nft-preview-card__title:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
 .nft-preview-card__description {
 	color: var(--soft-blue);
 	font-weight: 300;
@@ -125,6 +130,11 @@ body {
 
 .nft-preview-card__author-name {
 	color: var(--white);
+}
+
+.nft-preview-card__author-name:hover {
+  color: var(--cyan);
+  cursor: pointer;
 }
 
 .attribution {
