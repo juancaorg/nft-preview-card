@@ -42,6 +42,21 @@ body {
 	border-radius: var(--border-radius-card);
 }
 
+/*
+ * Use CSS grid and set all the grid items to be in the same cell.
+ * For more:
+ * https://stackoverflow.com/questions/2027657/overlapping-elements-in-css
+*/
+
+.nft-preview-card__image {
+	display: grid;
+}
+
+.nft-preview-card__image > * {
+	grid-column-start: 1;
+	grid-row-start: 1;
+}
+
 .nft-preview-card__equilibrium {
 	max-width: 100%;
 	/*
@@ -55,6 +70,18 @@ body {
 	border-radius: calc(var(--padding-mobile) + var(--border-radius-image));
 }
 
+.nft-preview-card__image-overlay {
+	max-width: 100%;
+	cursor: pointer;
+	background-color: var(--cyan);
+	margin: var(--padding-mobile);
+	border-radius: var(--border-radius-image);
+	z-index: 1;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
+
 .nft-preview-card__text {
 	padding: 0 var(--padding-mobile) var(--padding-mobile);
 	margin-top: -6px;
@@ -66,8 +93,8 @@ body {
 }
 
 .nft-preview-card__title:hover {
-  color: var(--cyan);
-  cursor: pointer;
+	color: var(--cyan);
+	cursor: pointer;
 }
 
 .nft-preview-card__description {
@@ -78,9 +105,9 @@ body {
 }
 
 .nft-preview-card__product-info-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .nft-preview-card__price {
@@ -106,7 +133,7 @@ body {
 .nft-preview-card__author {
 	display: flex;
 	flex-direction: row;
-  align-items: center;
+	align-items: center;
 }
 
 .nft-preview-card__author-line {
@@ -133,8 +160,8 @@ body {
 }
 
 .nft-preview-card__author-name:hover {
-  color: var(--cyan);
-  cursor: pointer;
+	color: var(--cyan);
+	cursor: pointer;
 }
 
 .attribution {
