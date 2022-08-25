@@ -12,6 +12,7 @@
 	/* Primary colors. */
 	--soft-blue: hsl(215, 51%, 70%);
 	--cyan: hsl(178, 100%, 50%);
+	--transparent-cyan: hsla(178, 100%, 50%, 0.5);
 	/* Neutral colors. */
 	--very-dark-blue-main-bg: hsl(217, 54%, 11%);
 	--very-dark-blue-card-bg: hsl(216, 50%, 16%);
@@ -74,7 +75,7 @@ body {
 .nft-preview-card__image-overlay {
 	max-width: 100%;
 	cursor: pointer;
-	background-color: var(--cyan);
+	background-color: var(--transparent-cyan);
 	margin: var(--padding);
 	border-radius: var(--border-radius-image);
 	z-index: 1;
