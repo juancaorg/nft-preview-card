@@ -125,3 +125,5 @@ And that's how I made the overlay overlap the image, basically.
 ## Acknowledgments
 
 Huge shoutout to [Arye Eidelman](https://stackoverflow.com/users/3458162/arye-eidelman) for his response on [Stack Overflow](https://stackoverflow.com/questions/2027657/overlapping-elements-in-css) on how to overlap elements in CSS.
+
+Thanks to [@elaineleung](https://github.com/elaineleung) for her excellent feedback and helping me write better code.
