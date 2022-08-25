@@ -21,7 +21,7 @@
 	--attribution-blue: hsl(228, 45%, 44%);
 	--brandeis-blue: hsl(212, 95%, 48%);
 	/* Other variables */
-	--padding-mobile: 23px;
+	--padding: 23px;
 	--border-radius-card: 0.875rem;
 	--border-radius-image: 0.5rem;
 }
@@ -66,15 +66,15 @@ body {
 	 * For more:
 	 * https://stackoverflow.com/questions/9409632/border-radius-and-padding-not-playing-nice
 	*/
-	padding: var(--padding-mobile);
-	border-radius: calc(var(--padding-mobile) + var(--border-radius-image));
+	padding: var(--padding);
+	border-radius: calc(var(--padding) + var(--border-radius-image));
 }
 
 .nft-preview-card__image-overlay {
 	max-width: 100%;
 	cursor: pointer;
 	background-color: var(--cyan);
-	margin: var(--padding-mobile);
+	margin: var(--padding);
 	border-radius: var(--border-radius-image);
 	z-index: 1;
 	display: grid;
@@ -83,7 +83,7 @@ body {
 }
 
 .nft-preview-card__text {
-	padding: 0 var(--padding-mobile) var(--padding-mobile);
+	padding: 0 var(--padding) var(--padding);
 	margin-top: -6px;
 }
 
