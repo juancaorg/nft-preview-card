@@ -40,6 +40,7 @@ body {
 	place-self: center;
 	background-color: var(--very-dark-blue-card-bg);
 	border-radius: var(--border-radius-card);
+	box-shadow: 0 10px 15px black;
 }
 
 /*
