@@ -37,6 +37,7 @@ body {
 
 .nft-preview-card {
   max-width: 326px;
+  padding: var(--padding);
   place-self: center;
   background-color: var(--very-dark-blue-card-bg);
   border-radius: var(--border-radius-card);
@@ -60,21 +61,12 @@ body {
 
 .nft-preview-card__equilibrium {
   max-width: 100%;
-  /*
-	 * border-radius does not play nice with
-	 * padding, so you have to sum the padding
-	 * pixels with the border-radius that you want.
-	 * For more:
-	 * https://stackoverflow.com/questions/9409632/border-radius-and-padding-not-playing-nice
-	*/
-  padding: var(--padding);
-  border-radius: calc(var(--padding) + var(--border-radius-image));
+  border-radius: var(--border-radius-image);
 }
 
 .nft-preview-card__image-overlay {
   max-width: 100%;
   background-color: var(--transparent-cyan);
-  margin: var(--padding);
   border-radius: var(--border-radius-image);
   z-index: 1;
   opacity: 0;
@@ -90,8 +82,7 @@ body {
 }
 
 .nft-preview-card__text {
-  padding: 0 var(--padding) var(--padding);
-  margin-top: -6px;
+  margin-top: 20px;
 }
 
 .nft-preview-card__title {

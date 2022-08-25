@@ -116,10 +116,6 @@ Adding the layered class to an element causes all it's children to be layered on
 
 And that's how I made the overlay overlap the image, basically.
 
-Also, border-radius does not play nice with padding, so you have to sum the padding pixels with the border-radius that you want.
-
-The above is important because that's how I worked with the NFT image. Something to keep in mind.
-
 ## Author
 
 - Website - [juanca.org](https://www.juanca.org)
@@ -129,5 +125,3 @@ The above is important because that's how I worked with the NFT image. Something
 ## Acknowledgments
 
 Huge shoutout to [Arye Eidelman](https://stackoverflow.com/users/3458162/arye-eidelman) for his response on [Stack Overflow](https://stackoverflow.com/questions/2027657/overlapping-elements-in-css) on how to overlap elements in CSS.
-
-Also shoutout to this thread about [Border-radius and padding not playing nice on Stack Overflow](https://stackoverflow.com/questions/9409632/border-radius-and-padding-not-playing-nice).
