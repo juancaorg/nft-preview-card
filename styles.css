@@ -86,12 +86,14 @@ body {
   margin-top: 20px;
 }
 
-.nft-preview-card__title {
+.nft-preview-card__title a {
   font-size: 1.375rem;
   font-weight: 500;
+  color: var(--white);
+  text-decoration: none;
 }
 
-.nft-preview-card__title:hover {
+.nft-preview-card__title a:hover {
   color: var(--cyan);
   cursor: pointer;
 }
@@ -154,11 +156,12 @@ body {
   padding-left: 1rem;
 }
 
-.nft-preview-card__author-name {
+.nft-preview-card__author-name a {
   color: var(--white);
+  text-decoration: none;
 }
 
-.nft-preview-card__author-name:hover {
+.nft-preview-card__author-name a:hover {
   color: var(--cyan);
   cursor: pointer;
 }
