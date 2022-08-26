@@ -83,7 +83,7 @@ body {
 }
 
 .nft-preview-card__text {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .nft-preview-card__title a {
@@ -135,6 +135,9 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  border-top: 0.0625rem solid var(--soft-blue);
+  margin-top: 1rem;
+  padding-top: 1rem;
 }
 
 .nft-preview-card__author-line {
