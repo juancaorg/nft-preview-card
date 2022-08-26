@@ -128,4 +128,4 @@ Huge shoutout to [Arye Eidelman](https://stackoverflow.com/users/3458162/arye-ei
 
 Shoutout to [David from Techstacker](https://techstacker.com) for his article on [How to use the HTML rel="noopener" attribute (important for security)](https://techstacker.com/html-noopener-attribute/).
 
-Thanks to [@elaineleung](https://github.com/elaineleung) for her excellent feedback and helping me write better code.
+Thanks to [@elaineleung](https://github.com/elaineleung) and [@PhoenixDev22](https://github.com/PhoenixDev22) for their excellent feedback and helping me write better code.
