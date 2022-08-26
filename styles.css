@@ -156,12 +156,12 @@ body {
   padding-left: 1rem;
 }
 
-.nft-preview-card__author-name a {
+.nft-preview-card__author-name {
   color: var(--white);
   text-decoration: none;
 }
 
-.nft-preview-card__author-name a:hover {
+.nft-preview-card__author-name:hover {
   color: var(--cyan);
   cursor: pointer;
 }
