@@ -120,7 +120,7 @@ And that's how I made the overlay overlap the image, basically.
 
 - Website - [juanca.org](https://www.juanca.org)
 - Frontend Mentor - [@juancaorg](https://www.frontendmentor.io/profile/juancaorg)
-- Twitter - [@juancaorg](https://www.twitter.com/juancaorg)
+- Twitter - [@juancaorg](https://twitter.com/juancaorg)
 
 ## Acknowledgments
 
