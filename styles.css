@@ -31,15 +31,14 @@ body {
   font-family: "Outfit", sans-serif;
   background-color: var(--very-dark-blue-main-bg);
   color: var(--white);
-  display: grid;
-  place-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .nft-preview-card {
   max-width: 350px;
-  margin: 48px;
+  margin: auto;
   padding: var(--padding);
-  place-self: center;
   background-color: var(--very-dark-blue-card-bg);
   border-radius: var(--border-radius-card);
   box-shadow: 0 10px 15px black;
@@ -172,7 +171,7 @@ body {
 .attribution {
   font-size: 0.75rem;
   text-align: center;
-  margin: 48px;
+  margin-bottom: 2rem;
 }
 
 .attribution a {
