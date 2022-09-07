@@ -27,7 +27,7 @@
 }
 
 body {
-  min-height: 100vh;
+  min-height: 95vh;
   font-family: "Outfit", sans-serif;
   background-color: var(--very-dark-blue-main-bg);
   color: var(--white);
