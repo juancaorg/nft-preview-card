@@ -159,9 +159,9 @@ body {
 }
 
 .nft-preview-card__author-credit {
-  font-weight: 300;
   color: var(--soft-blue);
-  padding-left: 1rem;
+  font-weight: 400;
+  margin-left: 1rem;
 }
 
 .nft-preview-card__author-name {
