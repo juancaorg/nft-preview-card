@@ -114,7 +114,9 @@ body {
 
 .nft-preview-card__price {
   color: var(--cyan);
-  font-weight: 400;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 1.1875rem;
 }
 
 .nft-preview-card__eth-icon {
