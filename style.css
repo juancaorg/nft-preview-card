@@ -99,9 +99,11 @@ body {
 
 .nft-preview-card__description {
   color: var(--soft-blue);
+  font-size: 1.125rem;
   font-weight: 300;
-  padding: 0.75rem 0;
   line-height: 1.625rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
 }
 
 .nft-preview-card__product-info-container {
