@@ -21,8 +21,8 @@
   /* Footer colors. */
   --brandeis-blue: hsl(212, 95%, 48%);
   /* Other variables */
-  --padding: 23px;
-  --border-radius-card: 0.875rem;
+  --padding: 1.5rem;
+  --border-radius-card: 0.9375rem;
   --border-radius-image: 0.5rem;
 }
 
@@ -36,12 +36,12 @@ body {
 }
 
 .nft-preview-card {
-  max-width: 350px;
+  max-width: 327px;
   margin: auto;
   padding: var(--padding);
   background-color: var(--very-dark-blue-card-bg);
   border-radius: var(--border-radius-card);
-  box-shadow: 0 10px 15px black;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
 }
 
 /*
