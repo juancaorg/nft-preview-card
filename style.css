@@ -189,3 +189,13 @@ body {
 .attribution a:hover {
   color: var(--cyan);
 }
+
+/* 
+ * Desktop viewport.
+*/
+
+@media screen and (min-width: 768px) {
+  .nft-preview-card {
+    max-width: 350px;
+  }
+}
