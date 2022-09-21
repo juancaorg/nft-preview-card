@@ -1,85 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Hack to import a favicon from another, already live website -->
-    <link
-      rel="icon"
-      type="image/png"
-      href="https://www.google.com/s2/favicons?domain=www.juanca.org"
-    />
-    <title>NFT Preview Card | juanca.dev</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <main class="nft-preview-card">
-      <a
-        href="#"
-        aria-label="Check full screen image"
-        class="nft-preview-card__image"
-      >
-        <img
-          src="./images/image-equilibrium.jpg"
-          alt="A cube at equillibrium in a blue background"
-          class="nft-preview-card__equilibrium"
-        />
-        <div class="nft-preview-card__image-overlay">
-          <img src="./images/icon-view.svg" alt="" aria-hidden="true" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Hack to import a favicon from another, already live website -->
+  <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=www.juanca.org" />
+  <title>NFT Preview Card | juanca.dev</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <main class="nft-preview-card">
+    <a href="#" aria-label="Check full screen image" class="nft-preview-card__image">
+      <img src="./images/image-equilibrium.jpg" alt="A cube at equillibrium in a blue background"
+        class="nft-preview-card__equilibrium" />
+      <div class="nft-preview-card__image-overlay">
+        <img src="./images/icon-view.svg" alt="" aria-hidden="true" />
+      </div>
+    </a>
+    <div class="nft-preview-card__text">
+      <h1 class="nft-preview-card__title">
+        <a href="#">Equilibrium #3429</a>
+      </h1>
+      <p class="nft-preview-card__description">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+      <div class="nft-preview-card__product-info-container">
+        <div class="nft-preview-card__price">
+          <img src="./images/icon-ethereum.svg" alt="" class="nft-preview-card__eth-icon" aria-hidden="true" />
+          0.041 ETH
         </div>
-      </a>
-      <div class="nft-preview-card__text">
-        <h1 class="nft-preview-card__title">
-          <a href="#">Equilibrium #3429</a>
-        </h1>
-        <p class="nft-preview-card__description">
-          Our Equilibrium collection promotes balance and calm.
-        </p>
-        <div class="nft-preview-card__product-info-container">
-          <div class="nft-preview-card__price">
-            <img
-              src="./images/icon-ethereum.svg"
-              alt=""
-              class="nft-preview-card__eth-icon"
-              aria-hidden="true"
-            />
-            0.041 ETH
-          </div>
-          <div class="nft-preview-card__time-left">
-            <img
-              src="./images/icon-clock.svg"
-              alt=""
-              class="nft-preview-card__clock-icon"
-              aria-hidden="true"
-            />
-            3 days left
-          </div>
-        </div>
-        <div class="nft-preview-card__author">
-          <img
-            src="./images/image-avatar.png"
-            alt="Jules Wyvern's image avatar"
-            class="nft-preview-card__author-avatar"
-          />
-          <div class="nft-preview-card__author-credit">
-            Creation of
-            <a href="#" class="nft-preview-card__author-name">Jules Wyvern</a>
-          </div>
+        <div class="nft-preview-card__time-left">
+          <img src="./images/icon-clock.svg" alt="" class="nft-preview-card__clock-icon" aria-hidden="true" />
+          3 days left
         </div>
       </div>
-    </main>
+      <div class="nft-preview-card__author">
+        <img src="./images/image-avatar.png" alt="Jules Wyvern's image avatar"
+          class="nft-preview-card__author-avatar" />
+        <div class="nft-preview-card__author-credit">
+          Creation of
+          <a href="#" class="nft-preview-card__author-name">Jules Wyvern</a>
+        </div>
+      </div>
+    </div>
+  </main>
 
-    <footer class="attribution">
-      Challenge by
-      <a
-        href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U"
-        rel="noopener"
-        target="_blank"
-        >Frontend Mentor</a
-      >. Coded by
-      <a href="https://www.juanca.org" rel="noopener" target="_blank"
-        >@juancaorg</a
-      >.
-    </footer>
-  </body>
+  <footer class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U" rel="noopener"
+      target="_blank">Frontend Mentor</a>. Coded by
+    <a href="https://www.juanca.org" rel="noopener" target="_blank">@juancaorg</a>.
+  </footer>
+</body>
+
 </html>
